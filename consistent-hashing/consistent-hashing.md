@@ -15,7 +15,8 @@ This repository contains a Go implementation of **consistent hashing**, based on
 - [References](#references)
 
 ## Introduction to Consistent Hashing
-![[Screenshot 2024-09-27 at 1.14.02 PM.png]]
+![consistent hasing](./Screenshot 2024-09-27 at 1.14.02 PM.png)
+
 Consistent hashing is a distributed hashing mechanism used in systems with dynamically changing nodes (servers). It ensures that the majority of keys are not reassigned when nodes join or leave the system, making it particularly useful in distributed systems like distributed caching, databases, and load balancing.
 
 The main challenge addressed by consistent hashing is **minimizing disruption** when nodes are added or removed, while keeping key distribution relatively balanced across the nodes.
